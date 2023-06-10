@@ -1,5 +1,5 @@
 ## EX.NO: 02<br>
-## DATE: 
+## DATE: 22.03.2023
 ## <p align="center">IMAGE ACQUISITION FROM WEB CAMERA</p>
  
 ## Aim:
@@ -34,7 +34,7 @@ Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180)
 ## Program:
 
 ### Developed By: M VIGNESH
-### Register No:212220233002
+### Register No: 212220233002
 
 ## i) Write the frame as JPG file
 ``` Python
@@ -49,7 +49,7 @@ cv2.destroyAllWindows()
 
 
 ## ii) Display the video
-```
+```PYTHON
 import cv2 
 import numpy as np 
 cap=cv2.VideoCapture(0) 
@@ -64,7 +64,7 @@ cv2.destroyAllWindows()
 
 
 ## iii) Display the video by resizing the window
-```
+```PYTHON
 import cv2 
 import numpy as np 
 cap=cv2.VideoCapture(0) 
@@ -85,12 +85,8 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
-
-
-
-
 ## iv) Rotate and display the video
-```
+```PYTHON
 import cv2 
 import numpy as np 
 cap=cv2.VideoCapture(0) 
@@ -109,9 +105,8 @@ while True:
         break 
 cap.release()
 cv2.destroyAllWindows()
-
-
 ```
+
 ## Output
 
 ### i) Write the frame as JPG image
